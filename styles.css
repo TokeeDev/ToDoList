@@ -1,0 +1,88 @@
+/* Reset some default margin and padding on elements */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* 100% of the viewport height */
+    background: url('images/lofiimg.jpg') center/cover no-repeat; /* Center the image and cover the entire body */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+/* Style the container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;     
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    color: #000000;
+    padding-block: 130px;
+    font-size: 85px;
+    text-shadow: 2px 2px 5px rgb(38, 35, 35);
+    
+}
+/* Style the wrapper containing the input and button */
+.wrapper {
+    display: flex;
+}
+
+/* Style the input field */
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the add button */
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the task list */
+#taskList{
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style individual tasks */
+li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the delete button inside each task */
+.delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.wrapper ::placeholder{
+    font-weight: bolder;
+
+}
+
