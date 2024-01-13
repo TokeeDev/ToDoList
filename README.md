@@ -7,7 +7,7 @@ ToDoList is my first project, a simple and efficient task management app built w
 - Add new tasks.
 - Mark tasks as completed.
 - Delete tasks.
-- 
+  
 ## Technologies Used
 - **JavaScript**: Used for the core functionality such as adding and deleting tasks.
 - **HTML**: Used for structuring the content of the web pages.
